@@ -13,6 +13,7 @@
 		F955E31E2902CFB800390B2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F955E31C2902CFB800390B2C /* Main.storyboard */; };
 		F955E3202902CFB900390B2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F955E31F2902CFB900390B2C /* Assets.xcassets */; };
 		F955E3232902CFB900390B2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F955E3212902CFB900390B2C /* LaunchScreen.storyboard */; };
+		F9DD414A29048B7A00E45E63 /* CreditCardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD414929048B7A00E45E63 /* CreditCardDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F955E31F2902CFB900390B2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F955E3222902CFB900390B2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F955E3242902CFB900390B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9DD414929048B7A00E45E63 /* CreditCardDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,23 @@
 		F955E3152902CFB800390B2C /* customCreditCardKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				F9DD414C2904948700E45E63 /* App */,
+				F9DD414B2904944800E45E63 /* CustomDelegate */,
+			);
+			path = customCreditCardKeyboard;
+			sourceTree = "<group>";
+		};
+		F9DD414B2904944800E45E63 /* CustomDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F9DD414929048B7A00E45E63 /* CreditCardDelegate.swift */,
+			);
+			path = CustomDelegate;
+			sourceTree = "<group>";
+		};
+		F9DD414C2904948700E45E63 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				F955E3162902CFB800390B2C /* AppDelegate.swift */,
 				F955E3182902CFB800390B2C /* SceneDelegate.swift */,
 				F955E31A2902CFB800390B2C /* ViewController.swift */,
@@ -64,7 +83,7 @@
 				F955E3212902CFB900390B2C /* LaunchScreen.storyboard */,
 				F955E3242902CFB900390B2C /* Info.plist */,
 			);
-			path = customCreditCardKeyboard;
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +160,7 @@
 				F955E31B2902CFB800390B2C /* ViewController.swift in Sources */,
 				F955E3172902CFB800390B2C /* AppDelegate.swift in Sources */,
 				F955E3192902CFB800390B2C /* SceneDelegate.swift in Sources */,
+				F9DD414A29048B7A00E45E63 /* CreditCardDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = customCreditCardKeyboard/Info.plist;
+				INFOPLIST_FILE = customCreditCardKeyboard/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,7 +335,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = customCreditCardKeyboard/Info.plist;
+				INFOPLIST_FILE = customCreditCardKeyboard/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
