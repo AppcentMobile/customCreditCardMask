@@ -9,4 +9,4 @@ How to use ?
 * tfCreditCard.delegate = delegate
 
 In the viewDidDisappear;
-delegate = nil
+* delegate = nil
